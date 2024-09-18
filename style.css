@@ -1,0 +1,68 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #003366; /* Deep Blue */
+    background-color: #F5F5F5; /* Light Gray */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    color: #003366; /* Deep Blue */
+}
+
+/* Links and Buttons */
+a {
+    color: #FF6600; /* Vibrant Orange */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #FF6600; /* Vibrant Orange */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #e65c00; /* Slightly darker orange */
+}
+
+/* Container for layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF; /* White for sections */
+    border: 1px solid #E0E0E0; /* Light gray border */
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+    
+    button {
+        padding: 8px 16px;
+    }
+}
