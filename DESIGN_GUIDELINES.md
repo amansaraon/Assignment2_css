@@ -1,34 +1,32 @@
-# DESIGN_GUIDELINES.md
+# Design Guidelines for Resume Website
 
-## Color Scheme
+## 1. Color Scheme
+- **Primary Color:** Sky Blue (#00D0FF) for headings (h1, h2, h3).
+- **Secondary Color:** Light Gray (#F4F4F4) for header background.
+- **Section Background:** Light Gray (#F0F0F0) for content sections.
+- **Accent Color:** Light Blue (#B2C4FC) for footer.
+- **Borders:** Light Gray (#DDD) for flexbox section borders.
 
-1. **Primary Color: Deep Blue (#003366)**
-   - **Usage**: Backgrounds, headings.
+## 2. Typography
+- **Base Font:** Arial, sans-serif for body text.
+- **Headings:** Sky Blue for h1, h2, h3 with sizes:  
+  - h1: `2.5em`  
+  - h2: `2em`  
+  - h3: `1.5em`
+- **Body Text:** Font size of `1em`, with line height `1.6`.
 
-2. **Secondary Color: Light Gray (#F5F5F5)**
-   - **Usage**: Backgrounds, borders.
+## 3. Layout & Positioning
+- **Flexbox Layout:** Sections arranged side-by-side, wrapping on smaller screens. Flex-wrap allows sections to adapt to screen size.
+- **Responsive Design:** Adjusted for:
+  - **Tablet (max-width: 768px):** Sections grow to 45% width, heading sizes reduced.
+  - **Mobile (max-width: 480px):** Sections stack vertically, font sizes adjusted for readability.
 
-3. **Accent Color: Vibrant Orange (#FF6600)**
-   - **Usage**: Buttons, links.
+## 4. Media Queries
+- **Tablet:** Two-column layout with smaller heading sizes.
+- **Mobile:** Stacked layout with reduced font sizes.
 
-### Combinations
-- **Deep Blue + Light Gray**: Professional backdrop.
-- **Deep Blue + Vibrant Orange**: High contrast, attention-grabbing.
+## 5. Accessibility
+- **ARIA Roles:** Implemented (`header`, `main`, `footer`) for better navigation.
+- **Alt Text:** Included for profile image.
+- **Color Contrast:** Ensured good contrast for readability across all elements.
 
-## Typography
-
-1. **Primary Font: 'Roboto'**
-   - **Usage**: Body text.
-
-2. **Secondary Font: 'Merriweather'**
-   - **Usage**: Headings.
-
-### Pairing
-- **'Roboto'** for readability.
-- **'Merriweather'** for classic headings.
-
-## Design Principles
-
-- **Consistency**: Unified look with primary color.
-- **Hierarchy**: Distinguish content with font and color.
-- **Accessibility**: Ensure good contrast for readability.
